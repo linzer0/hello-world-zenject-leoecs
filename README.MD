@@ -8,7 +8,9 @@ Within the framework of this tutorial, it makes no difference which one to use, 
 ## Usage
 After installation, we need to create **Scene Context** in our Scene. 
 Right Click inside the Hierarchy tab and select `Zenject -> Scene Context`
-[![01-Create-Scene-Context.png](https://i.postimg.cc/66McCdr9/01-Create-Scene-Context.png)](https://postimg.cc/qgC2T6DY)
+
+[![Create-Scene-Context.png](https://i.postimg.cc/vTymBgmk/Create-Scene-Context.png)](https://postimg.cc/S2Z41KCf)
+
 Now, create three scripts: `StartupInstaller`, `StartupSystemsExecutor`, `HelloWorldSystem`.
 
 **StartupInstaller** will bind our Systems and EcsWorld to DI-container.
@@ -89,4 +91,4 @@ We need to add `StartupInstaller` to **SceneContext** which we created on scene.
 [![02-Startup-installer-added-to-scene-context.png](https://i.postimg.cc/FsfycwFZ/02-Startup-installer-added-to-scene-context.png)](https://postimg.cc/6yX4xjv2)
 
 And click Run
-[![03-hello-world-printed.png](https://i.postimg.cc/fRc0fNGx/03-hello-world-printed.png)](https://postimg.cc/VJN6z3L6)
+[![Console-output.png](https://i.postimg.cc/Qx0M8MZY/Console-output.png)](https://postimg.cc/YhL78M9Q)
