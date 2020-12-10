@@ -88,7 +88,9 @@ public class HelloWorldSystem : IEcsInitSystem
 ```
 
 We need to add `StartupInstaller` to **SceneContext** which we created on scene.
+
 [![02-Startup-installer-added-to-scene-context.png](https://i.postimg.cc/FsfycwFZ/02-Startup-installer-added-to-scene-context.png)](https://postimg.cc/6yX4xjv2)
 
 And click Run
+
 [![Console-output.png](https://i.postimg.cc/Qx0M8MZY/Console-output.png)](https://postimg.cc/YhL78M9Q)
